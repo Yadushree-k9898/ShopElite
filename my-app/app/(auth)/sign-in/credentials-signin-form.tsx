@@ -20,7 +20,7 @@ const SignInButton = () => {
 };
 
 
-const CredentialsSignInForm = () => {
+const SignUpForm = () => {
   const [data, action] = useActionState(signInWithCredentials, {
     success: false,
     message: "",
@@ -74,4 +74,4 @@ const CredentialsSignInForm = () => {
   );
 };
 
-export default CredentialsSignInForm;
+export default SignUpForm;
